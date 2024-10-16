@@ -4,6 +4,10 @@ require "active_record"
 require_relative "iprog_otp_generator/version"
 require_relative "iprog_otp_generator/otp_code"
 
+if defined?(Rails)
+ require_relative "iprog_otp_generator/generators/install_generator"
+end
+
 module IprogOtpGenerator
  def self.included(base)
   base.extend(ClassMethods)
