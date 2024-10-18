@@ -7,7 +7,7 @@ module IprogOtpGenerator
     class InstallGenerator < Rails::Generators::Base
       include Rails::Generators::Migration  # Place it here to include migration support
 
-      source_root File.expand_path('templates', __dir__)  # Make sure this points to your templates folder
+      source_root File.expand_path('../', __dir__)  # Make sure this points to your templates folder
 
       argument :model_name, type: :string, default: "User", banner: "MODEL"
 
