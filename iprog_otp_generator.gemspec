@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
  spec.description                     = "This gem allows ActiveRecord models to generate, validate, and clear OTP codes with an expiration time."
  spec.homepage                        = "https://github.com/iprog21/iprog_otp_generator.git"
  spec.license                         = "MIT"
- spec.required_ruby_version           = ">= 3.0.0"
+ spec.required_ruby_version           = ">= 2.5.0"
 
  spec.files                           = Dir["lib/**/*.rb"]
  spec.require_paths                   = ["lib"]
