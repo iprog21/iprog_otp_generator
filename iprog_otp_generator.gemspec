@@ -25,4 +25,5 @@ Gem::Specification.new do |spec|
 
  spec.add_dependency "activerecord"
  spec.add_development_dependency "rspec"
+ spec.add_runtime_dependency "rails", ">= 5.0"
 end

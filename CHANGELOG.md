@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.1.6] - 2024-10-18
+- Add add_runtime_dependency "rails", ">= 5.0"
+- require 'rails/generators'
+
 ## [0.1.5] - 2024-10-18
 - Fix incorrect require_relative for generators
 
