@@ -6,6 +6,7 @@ gemspec
 
 group :development, :test do
  gem "rspec"
+ gem 'byebug'
 end
 
 group :test do

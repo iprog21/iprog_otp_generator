@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [0.1.11] - 2024-10-19
+- Remove migration template file and switch to manual copying
+- Add byebug in development mode
+
 ## [0.1.10] - 2024-10-18
 - Update ruby required version to 2.5.0 minimum
 
