@@ -5,7 +5,7 @@ require_relative "iprog_otp_generator/version"
 require_relative "iprog_otp_generator/otp_code"
 
 if defined?(Rails)
- require_relative "iprog_otp_generator/generators/install_generator"
+ require_relative "generators/install_generator"
 end
 
 module IprogOtpGenerator
