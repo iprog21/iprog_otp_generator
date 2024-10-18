@@ -20,7 +20,7 @@ module IprogOtpGenerator
 
    private
    def migration_version
-    if Rails.version.start_with?("5") || Rails.version.start_with("6")
+    if Rails::VERSION::MAJOR >= 5
      "[#{Rails::VERSION::MAJOR}.#{Rails::VERSION::MINOR}]"
     end
    end
